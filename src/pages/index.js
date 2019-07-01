@@ -1,13 +1,6 @@
 import { html } from 'orison';
 
 export default context => html`
-  <section>
-    <div>
-      <a href="https://app.netlify.com/start/deploy?repository=https://github.com/megazear7/orison-netlify-starter-kit">
-        <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify">
-      </a>
-    </div>
-  </section>
   <section>${context.mdFile('./src/partials/getting-started.md')}</section>
   <section>
     <h3>Here are some example pages</h3>
