@@ -2,6 +2,6 @@ import { html } from 'orison';
 
 export default () => html`
   <footer>
-    <p>Built with the OrisonJS Starter Kit</p>
+    <p>Copyright (C) 2021, Aifuse Research Labs Pvt. Ltd.,</p>
   </footer>
 `;
