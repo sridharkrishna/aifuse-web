@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  --primary-color: #2078b4;
+  --secondary-color: #ffffff;
+  --tertiary-color: #d13405;
+  --code-header-color: #a8a8a8;
+  --code-background-color: #f8f8f8;
+  --grey: #eee;
+  --dark-grey: #444;
+  --app-section-even-color: #fff;
+  --app-section-odd-color: var(--grey);
+  --border-radius: 5px;
+  --content-width: 90%;
+  --text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  line-height: 2rem;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+  /* background: url("https://lh5.googleusercontent.com/ag81NYaUntlwHris-AhlcrjK9ST9Zo8x93hCHo1wohynP_sIwuWxdwYvQzWylGd3V3LU-zdUUHKUGDV-kXjZpHEB6IJEkNBSvVSvOJKzkXJ_W7lgZGH3G5RTrAOQeNpeINSuFU6W4oIBjCtpLz3hFLbQyUMzEaIv-6i_i4O2h3TxImvh28LZtExqUDuBYCoKjB8E0RdX=w512"); no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1;
+  font-weight: 500;
+  color: var(--tertiary-color);
+  text-shadow: var(--text-shadow);
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+h3 {
+  font-size: 1.75rem;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: var(--tertiary-color);
+}
+
+h4 {
+  /* Careful. This is meant to be used as code block headers */
+  color: var(--code-header-color);
+  margin-bottom: 0;
+  background-color: var(--code-background-color);
+  padding: 0.5em;
+  border-bottom: 1px solid var(--code-header-color);
+  font-weight: 300;
+}
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 300;
+  color: var(--tertiary-color);
+}
+
+h6 {
+  font-size: 1.25rem;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: var(--dark-grey);
+}
+
+p {
+  font-size: 1rem;
+}
+
+main p {
+  text-align: justify;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.wrapper {
+  max-width: 80%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.sr-only {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #fff;
+  background-color: #2fa0f6;
+  min-width: 120px;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+.button span {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .button span {
+    display: initial;
+  }
+}
+
+.button--icon {
+  min-width: initial;
+  padding: 0.5rem;
+}
