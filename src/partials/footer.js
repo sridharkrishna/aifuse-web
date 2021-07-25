@@ -21,7 +21,7 @@ export default () => html`
       <div class="site-footer__middle">
       </div>
       <div class="site-footer__end">
-        <a href="https://aifuse.com/privacy-policy" class="privacy-policy"
+        <a href="./privacy-policy" class="privacy-policy"
           >Privacy Policy</a
         >
         <p class="footer-label">

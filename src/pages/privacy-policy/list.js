@@ -6,10 +6,6 @@ export default (context, slug) => {
 		html: html `<section><p>Blog A</p></section>`,
 	},
 	{
-		name: 'privacy-policy',
-		html: html `<section><p>Privacy Policy</p></section>`,
-	},
-	{
 		name: 'blog-b',
 		html: html `<section><p>Blog B</p></section>`,
 	},
