@@ -1,12 +1,11 @@
 ## Creative Intelligence
 
-### Make changes
+### Our Teams
 
-1. Make changes under /src based upon the [OrisonJS documentation](https://orison.alexlockhart.me)
-1. Build the changes to /docs with `npm run build`
-1. Test your changes by running `npm run serve` and going to localhost:3000
+Aspire to make discoveries that impact everyone, and core to our approach is sharing our research and tools to fuel progress in the field.
 
-### Deploy
+---
 
-1. Push the changes to a Github repo.
-1. Setup that Github repo to use Github Pages for hosting.
+###### Four Dimensions
+
+As an organization, we maintain a portfolio of research projects driven by fundamental research, new product innovation, product contribution and infrastructure goals, while providing individuals and teams the freedom to emphasize specific types of work. We strive to create an environment conducive to many different types of research across many different time scales and levels of risk.

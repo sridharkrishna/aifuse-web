@@ -5,17 +5,29 @@ export default () => html`
     <div class="site-footer__wrapper">
       <div class="site-footer__start">
         <p class="footer-label">Follow Us</p>
-        <a href="https://www.linkedin.com/company/aifuse-labs"
+        <a class="follow-us" href="https://www.linkedin.com/company/aifuse-labs"
           ><ion-icon name="logo-linkedin"
         /></a>
+        <a class="follow-us" href="https://twitter.com/aifuse">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+      </div>
+      <div class="site-footer__start">
+        <p class="footer-label">Contact Us</p>
+        <a class="footer-label" href="mailto:info@aifuse.com">
+          <ion-icon name="mail"></ion-icon> 
+        </a>
       </div>
       <div class="site-footer__middle">
-        <a href="https://aifuse.com/privacy-policy" class="privacy-policy">Privacy Policy</a>
+      </div>
+      <div class="site-footer__end">
+        <a href="https://aifuse.com/privacy-policy" class="privacy-policy"
+          >Privacy Policy</a
+        >
         <p class="footer-label">
-          Copyright &copy; 2021, Aifuse Research Labs Pvt. Ltd.
+          Copyright &copy; 2021 - Aifuse Research Labs Pvt. Ltd.
         </p>
       </div>
-      <div class="site-footer__end"></div>
     </div>
   </footer>
 `;
