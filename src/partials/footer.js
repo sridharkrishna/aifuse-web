@@ -14,7 +14,7 @@ export default () => html`
       </div>
       <div class="site-footer__start">
         <p class="footer-label">Contact Us</p>
-        <a class="footer-label" href="mailto:info@aifuse.com">
+        <a class="follow-us" href="mailto:info@aifuse.com">
           <ion-icon name="mail"></ion-icon> 
         </a>
       </div>
