@@ -5,14 +5,15 @@
 .brand {
   width: 120px;
   height: 52px;
-  background: url("https://lh4.googleusercontent.com/nZmlXTnm5VUYMwUWHBDp4JvIykhgu8aOPaLKEJK3cUojPcrom1z6c62aikm67-ym0mvKdaTL03F-8TUELQpQkmEcbsIfTFIaF6MmpT6vNhABocCzaW6oj7396RzZZONNk8Sn50WqkSFrxcbQ8bt_ScvAoFOqsty0T7QivxXyGfbo0XyPj2z83p9lpP11jX9T2-hC0Z-wp2Y1Txcvd8Ip=w512");
-  background-repeat:no-repeat;
-  background-size:contain;
-  background-position:center;
+  background: url("https://aifuse-web.s3.ap-south-1.amazonaws.com/icons/AIFuse.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .site-header {
   position: relative;
+  height: auto;
 }
 
 .site-header__wrapper {
@@ -68,6 +69,16 @@
 .nav__item a {
   display: block;
   padding: 1rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav__item a:hover {
+  color: chocolate;
+}
+
+.nav__item a active {
+  color: chocolate;
 }
 
 .nav__toggle {

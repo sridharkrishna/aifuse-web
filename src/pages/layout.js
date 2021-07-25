@@ -18,7 +18,7 @@ export default (context) => html`
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
       <div class="wrapper">
         ${header(context)}
-        <main>${context.page.html}</main>
+        <main class="main">${context.page.html}</main>
         ${footer()}
       </div>
     </body>

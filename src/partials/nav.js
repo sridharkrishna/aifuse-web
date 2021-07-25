@@ -7,8 +7,8 @@ export default (currentPath, root) => html`
         menu
       </button>
       <li class="nav__item">
-        <a href="/" class="${currentPath.length === 1 ? "active" : ""}"
-          >Begin</a
+        <a href="./" class="${currentPath.length === 1 ? "active" : ""}"
+          >Home</a
         >
       </li>
       ${root.children.map(

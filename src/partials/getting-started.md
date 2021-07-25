@@ -1,4 +1,4 @@
-## Getting Started
+## Creative Intelligence
 
 ### Make changes
 

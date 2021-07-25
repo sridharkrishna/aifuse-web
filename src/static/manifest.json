@@ -1,7 +1,7 @@
 {
-  "name": "OrisonJS",
-  "short_name": "OrisonJS",
-  "description": "Orison server and static stite generator documentation",
+  "name": "aifuse",
+  "short_name": "aifuse",
+  "description": "Aifuse Rearch Labs",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#fa5d0f",
